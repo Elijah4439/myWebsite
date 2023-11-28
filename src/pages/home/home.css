@@ -1,0 +1,380 @@
+.main__header{
+    width:100vw;
+    height:100vh;
+    display: grid;
+    place-items: center;
+
+    background-image: url('../../assets/7392521.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__header-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 180px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.main__header-left{
+    margin-top: 3rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main__header-left h5{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.main__header-left h4{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.main__header-left h1{
+    margin-left: 1rem;
+}
+
+.main__header-left p{
+    margin: 1rem 0 0.5rem;
+    color: var(--color-grey-100);
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+/*past projects*/
+
+.projects{
+    margin-top: 4rem;
+}
+
+.projects__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:3rem;
+    margin-top: 4rem;
+}
+
+.projects__project a{
+    margin-top: 2.5rem;
+    display: flx;
+    align-items: center;
+    justify-content: center;
+}
+
+.programs__program:hover a{
+    background: var(--color-secondary);
+    color: var(--color-grey-600);
+}
+
+
+.projects__project p{
+    margin-bottom: 1rem;
+}
+
+
+/*work experience*/
+
+.experiences__container{
+    display: grid;
+    grid-template-columns: 10% 80%;
+    gap: 10%
+}
+
+.experiences__right > p{
+    margin: 1.5rem 0 5rem;
+}
+
+.experiences__wrapper{
+    display: grid;
+    gap: 3.4rem 0;
+}
+
+
+
+
+.bar {
+  list-style: none;
+}
+
+.bar >li {
+  top:2rem;
+  position: relative;
+  height:11rem;
+  gap: 3.4rem 0;
+
+}
+
+.bar>li:before {
+  content: '\25CF';
+  color: var(--color-secondary);
+  margin-right: 3rem;
+  font-size: 50px;
+  top: 0px;
+}
+
+.bar>li:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  border-left: 2px solid white;
+  margin-right: 3rem;
+  height: 100%;
+}
+
+.bar >li:first-of-type:after {
+  top: 25%;
+}
+
+
+.bar >li:last-of-type:after {
+  top: -75%;
+}
+
+
+
+/*skills section */
+
+.skills{
+    margin-top: 4rem;
+}
+
+.skills__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:3rem;
+    margin-top: 4rem;
+}
+
+.skills__container{
+    justify-content: center;
+}
+
+.skills__skill{
+    background: var(--color-grey-500);
+    border: 2px solid transparent;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 0 0 0 0;
+}
+
+.skills__skill h3{
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+.skills__skill a{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillss__skill:hover a{
+    background: var(--color-secondary);
+    color: var(--color-grey-600);
+}
+
+.skills__list{
+    color:white,
+}
+
+  
+
+/*footer*/
+footer{
+    background: var(--color-primary);
+    margin-top: 7rem;
+    padding-top: 7rem;
+    font-size: 0.9rem;
+    color: var(--color-grey-100);
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    gap: 6rem;
+}
+
+.footer__container article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+
+.footer__container article p{
+    margin-top: 0.5rem;
+}
+
+.footer__container article h4{
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+}
+
+.footer__socials{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer__socials a{
+    background: var(--color-grey-100);
+    padding: 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    transition: var(--transition);
+}
+
+.footer__socials a svg{
+    color: var(--color-grey-600);
+}
+
+.footer__socials a:hover{
+    border-color: var(--color-grey-100);
+    background: transparent;
+}
+
+.footer__copyright{
+    padding: 1.5rem 0;
+    text-align: center;
+    border-top: 2px solid var(--color-primary-variant);
+    margin-top: 5rem;
+}
+
+
+/* popups */
+
+.popup{
+    background: red;
+
+}
+
+.popup__container{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+
+
+
+/* media queries (medium screens) */
+@media screen and (max-width: 1024px){
+    .main__header{
+        height: fit-content;
+        padding: 12rem 0;
+    }
+
+    .main__header-container{
+        gap: 0;
+    }
+
+    /*projects*/
+    .projects__wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* experiences */
+    .experiences__container{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .experiences__wrapper{
+        gap: 4rem 3rem;
+    }
+
+    .experiences__left{
+        display: none;
+    }
+
+    /* dropdowns */
+    .dropdowns__wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .footer__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .main__header{
+        margin-top: 0;
+        padding: 12rem 0 0;
+        height: 100vh;
+    }
+
+    .main__header-image{
+        display: none;
+    }
+
+    .main__header-container{
+        grid-template-columns: 1fr;
+    }
+
+    /*projects*/
+    .projects__wrapper{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .projects__project{
+        width: 84%;
+        margin: 0 auto;
+    }
+
+    /*experiences*/
+    .experiences__wrapper{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .card.experiences__experience{
+        width: 84%;
+        margin-inline: auto;
+    }
+
+    /*dropdowns */
+    .dropdowns__wrapper{
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    footer{
+        margin-top: 7rem;
+    }
+
+    .footer__container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .footer__container article{
+        align-items: center;
+    }
+
+    .footer__container article p{
+        align-items: center;
+    }
+}
+
+
+
+

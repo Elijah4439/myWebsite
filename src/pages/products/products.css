@@ -1,0 +1,44 @@
+/* .serviceCards{
+    
+} */
+
+.serviceCards h2{
+    color: var(--color-secondary);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.serviceCards p{
+    color: white;
+    text-align: left;
+}
+
+.serviceCards__serviceCard{
+    background-color: var(--color-grey-600);
+    text-align: center;
+    padding: 2rem 2rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    transition: var(--transition);
+}
+
+
+.serviceCards__img{
+    height: 8%;
+    border-radius: 1rem 0rem 1rem 0rem;
+}
+
+
+.serviceCards__socials{
+    width: 5%;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.serviceCards__socials__container{
+    position:relative;
+    padding-top: 1rem;
+    justify-content: right;
+}
