@@ -13,10 +13,10 @@ const MainHeader = () => {
                     &nbsp;&nbsp;My name is Yi Xie, I'm passionate about game and web development. Dear recruiters, please checkout my Skills and Experiences pages.
                 </p>
                 <p>
-                    &nbsp;&nbsp;If you are a lost traveller entered here by accident, please take a look at my project page. We're currently working on a 2D pixel game project, DEMO will soon be avaliable!
+                    &nbsp;&nbsp;I'm currently working on a 2D pixel game project, demo avaliable on the demo page!
                 </p>
                 <p>
-                    &nbsp;&nbsp;If you are here to checkout options for your new personal website or your new handwoven designer baskets by The LazyBears, please feel free to contact me!
+                    &nbsp;&nbsp;If you are here to checkout options for your new personal website or your new handmade fashion options by LuluFleur, Rigil or LazyBear, please feel free to contact me.
                 </p>
                 <h5>
                     Oh I also take wild rift ranking comissions just so you know...

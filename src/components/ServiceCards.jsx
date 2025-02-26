@@ -46,7 +46,22 @@ const ServiceCards = () => {
                                 </div>
                             </div>
                         </div>
-                    </VerticalTimelineElement>
+                      </VerticalTimelineElement>
+                      <VerticalTimelineElement contentStyle={customStyle}>
+                          <div className="serviceCards__serviceCard">
+                              <h2>LuluFleur by Evelyn</h2>
+                              <img src={image_craft} className='serviceCards__img'></img>
+                              <p>Get your next customized hand-made designer basket from LazyBear!</p>
+                              <p>Love some colours and vividity in your home but can't afford to buy real flowers every 10 days? Evelyn is here for you! Checkout our <a style={{ color: 'var(--color-secondary)' }}>100% handmad fluffy twisted stick flower bouquets</a> that provides the same level of brightness but never fades!</p>
+                              <p>(Currently we are only take customized commission order, please email us to get more info!)</p>
+                              <div className='serviceCards__socials__container'>
+                                  <div className="serviceCards__socials">
+                                      <a href="mailto:elijah4439@gmail.com" target="_blank" rel="noreferrer noopener"><HiOutlineMail /></a>
+                                      {/* <a href="mailto:elijah4439@gmail.com" target="_blank" rel="noreferrer noopener"><FaExternalLinkAlt /></a> */}
+                                  </div>
+                              </div>
+                          </div>
+                      </VerticalTimelineElement>
                 </div>
             </VerticalTimeline>
         </div>

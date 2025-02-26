@@ -15,7 +15,7 @@ const SkillsFilter = () => {
                             Java, Python, C#, C++, JavaScript
                         </li>
                         <li>
-                            HTML, CSS, ajax, bootstrap, React, Flutter
+                            HTML, CSS, ajax, Bootstrap, React, Flutter, .NET
                         </li>
                         <li>
                             MATLAB, R
@@ -24,10 +24,10 @@ const SkillsFilter = () => {
                             Unix/Linux, MS Windows, Mac OSX 
                         </li>
                         <li>
-                            PostgresSQL, Firebase, MangoDB
+                            SQL, Firebase
                         </li>
                         <li>
-                            Unity, AndroidStudio, XCode, Godot, VS, Unreal Engine
+                            Unity, AndroidStudio, XCode, Godot, VS, UE, SharePoint
                         </li>
                     </ul>
                 </div>
